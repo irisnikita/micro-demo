@@ -1,0 +1,19 @@
+{
+  "name": "admin",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "container",
+      "header"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "4.0.0"
+  },
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "bootstrap": "yarn && lerna bootstrap",
+    "build": "lerna run --parallel build"
+  },
+  "license": "ISC"
+}
