@@ -7,7 +7,7 @@ import Products from 'Products/App'
 const Page: React.FC = () => {
 	return (
 		<div>
-			{/* <Header /> */}
+			<Header />
 			<Products />
 			Admin center test page
 			<Link to={'/test/3'}> id</Link>
