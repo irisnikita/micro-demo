@@ -15,7 +15,7 @@ module.exports = {
 		path: path.resolve('./build'),
 		filename: '[name].js',
 		chunkFilename: '[name].js',
-		publicPath: 'https://micro-demo-three.vercel.app/header/build/',
+		publicPath: './build/',
 		crossOriginLoading: 'anonymous',
 	},
 	resolve: {
