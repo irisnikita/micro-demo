@@ -144,7 +144,7 @@ module.exports = {
 			name: 'container',
 			remotes: {
 				Products: 'Products@https://ad-mono.vinlt.xyz/static/demo/products/dist/products.js',
-				Header: 'Header@https://ad-mono.vinlt.xyz/demo-project/header/build/header.js',
+				Header: 'Header@https://micro-demo-three.vercel.app/header/build/header.js',
 				// sidebar: 'sidebar@' + DOMAIN + 'sidebar/build/sidebar.js',
 				// header: 'header@' + DOMAIN + 'header/build/header.js',
 				// login: 'login@' + DOMAIN + 'login/build/login.js',
